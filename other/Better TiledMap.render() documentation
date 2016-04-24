@@ -1,0 +1,23 @@
+Better documentation for the TiledMap.render() method.
+        
+/**
+ * What should be the actual TiledMap.render actual documentation:
+ *
+ ** @param x
+ *            - Pixels - Render location based on the screen itself, the
+ *            window in which the game is.
+ ** @param y
+ *            - Pixels - Same as above but for vertical. Note, positive
+ *            means down.
+ ** @param sx
+ *            - Tiles - The top left corner of the render location on
+ *            the entire map.
+ ** @param sy
+ *            - Tiles - Same, but y coordinate.
+ ** @param Width
+ *            - Tiles - How many tiles you are going to render
+ *            horizontally.
+ ** @param Height
+ *            - Tiles - Same but vertically. Hint: Use something like:
+ *            SCREENHEIGHT/TILE_WIDTH + 2
+ */
